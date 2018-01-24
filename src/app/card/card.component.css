@@ -1,0 +1,21 @@
+:host{
+    width: 22%;
+}
+div{
+    width: 45%;
+    height: 100px;
+    padding: 20px;
+    background-color: bisque;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+div h3{
+    text-align: center;
+    font-weight: bold;
+}
+
+p{
+    text-align: justify;
+}

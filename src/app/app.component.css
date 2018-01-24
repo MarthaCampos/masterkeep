@@ -1,0 +1,37 @@
+h1 {
+    color: white;
+    padding: 10px;
+}
+
+section{
+    width: 400px;
+    background-color: #42a4fa;
+    height: 100vh;
+    transform: translateX(-85%);
+    transition: 1s;
+    position: absolute;
+}
+
+section.ativa{
+    transform: translateX(0);
+}
+
+form{
+    padding: 10px;
+    margin-right: 50px;
+}
+
+.menu{
+    width: 30px;
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    cursor: pointer;
+}
+
+.quadro{
+    padding-left: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
